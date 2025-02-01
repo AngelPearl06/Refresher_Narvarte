@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='styles.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="home.html" class="nav__logo"><img src="Images/image 15.png" alt=""></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Project</a></li> </ul>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Angel Pearl</span><br> IT Student</h1>
+
+                    <a href="#work" class="button">Project</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image id="bannerImg" class="home__blob-img" x="50" y="60" href="Images/image 3.png"/>
+                        </g>
+                    </svg>
+                    <button onclick="changeImage('image 3.png')" class="home__btn"></button>
+                </div>
+            </section>
+            <!--===== ABOUT ME =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+        
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="Images/Rectangle 9.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Angel</h2>
+                        <h3>“My Journey as a Student”</h3>
+                        <p class="about__text">In a bustling city, My passion for nature sparked during a school project. Joining my school's environmental club, I organized tree plantings and recycling drives. </p> 
+                        <p class="about__text">Through internships, I learned about environmental justice and systemic inequalities. Now, I advocates for sustainability and equity, driven by hope and determination.</p>
+                        <p class="about__text">I want to share my journey on saving our planet from pollution and other activities that slowly destroying our nature</p>      
+        
+                    </div>                                   
+                </div>
+            </section>
+            <!--===== EDUCATION =====-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="education__container bd-grid">
+                    <ul>
+                        <li>
+                            <h3>Bachelor of Science in Information Technology</h3>
+                            <p>Major in Web Technology</p>
+                            <p>University of the Cordilleras</p>
+                            <p>Currently Enrolled</p>
+                        </li>
+                        <li>
+                            <h3>Senior High School Diploma</h3>
+                            <p>Track: Accountancy, Business, and Management</p>
+                            <p>Manaoag National High School</p>
+                            <p>Graduated: 2022</p>
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+            <!--===== EXPERIENCE =====-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="education__container bd-grid">
+                <ul>
+                    <li>
+                        <h3>Academic & Personal Projects</h3>
+                        <p>As a student, I have worked on various projects that showcase my skills in web development and IT.</p>
+                        <ul>
+                            <li>Developed a personal portfolio website using HTML, CSS, and JavaScript.</li>
+                            <li>Created a city guide app in Kotlin as part of a school project.</li>
+                            <li>Completed an online certification course in Web Development.</li>
+                        </ul>
+                    </ul>
+                    </div>
+            </section>
+        <!--===== SKILLS =====-->
+            <section class="skill section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="education__container bd-grid">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    </ul>
+                </div>
+            </section>
+        <!--===== PROJECTS =====-->
+            <section class="work section" id="work">
+        <h2 class="section-title">Project</h2>
+            <div class="work__container bd-grid">
+                <a href="https://github.com/AngelPearl06/cc17-3f-narvarteapf-act6.git" class="work__img">
+                    <img src="https://i.pinimg.com/736x/39/99/84/39998408ff671099aa6178916bf5487c.jpg" alt="City App">
+                
+                </a>
+                <a href="https://github.com/AngelPearl06/cc17-3f-yukuna.git" class="work__img">
+                    <img src="https://i.pinimg.com/736x/59/cf/8b/59cf8bb6e29cec6bbc0f3aa306eecf0e.jpg" alt="Finance Tracker App">
+                   
+                </a>
+                <a href="https://github.com/AngelPearl06/cc17-3f-narvarteapf-act5.git" class="work__img">
+                    <img src="https://i.pinimg.com/736x/b0/56/6d/b0566d237910af12cf0c3ef6c9bbd7a1.jpg" alt="Art Space App">
+                </a>
+                    
+            </div>
+        </section>
+
+    </section>
+    
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Pearl</p>
+            <div class="footer__social">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <p class="footer__copy">All rigths reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
